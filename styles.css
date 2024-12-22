@@ -27,3 +27,13 @@ body {
         justify-content: right;
     }
 }
+
+/* Links */
+
+a {
+    color: #F0F8FF;
+}
+
+a.active {
+    text-decoration: underline;
+}
