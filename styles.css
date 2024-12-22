@@ -17,22 +17,25 @@ main {
 
 .footer {
     display: flex;
-    justify-content: left;
     gap: 20px;
     padding: 40px;
     position: fixed;
     width: calc(100% - 80px);
+    justify-content: right;
+    top: 0;
+    right: 0;
 }
 
-.footer {
-    bottom: 0;
-}
 
-@media only screen and (max-width: 786) {
+/* For desktop */
+
+@media screen and (min-width: 786px) {
     .footer {
-        top: 0;
-        bottom: unset;
-        justify-content: right;
+        justify-content: left;
+        top: unset;
+        right: unset;
+        bottom: 0;
+        left: 0;
     }
 }
 
