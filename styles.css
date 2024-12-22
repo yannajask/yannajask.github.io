@@ -3,7 +3,7 @@ body {
     color: #F0F8FF;
 }
 
-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
