@@ -2,13 +2,14 @@ body {
     background-color: #212A37;
     color: #F0F8FF;
     font-family: 'Fira Mono';
-    font-size: x-large;
+    font-size: larger;
     margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     min-height: 75vh;
+    transition: font-size 0.5s;
 }
 
 main {
@@ -29,7 +30,11 @@ main {
 
 /* For desktop */
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 600px) {
+    body {
+        font-size: x-large;
+    }
+
     .footer {
         justify-content: left;
         top: unset;
