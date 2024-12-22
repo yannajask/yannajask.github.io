@@ -28,7 +28,7 @@ main {
     bottom: 0;
 }
 
-@media (max-width: 786) {
+@media only screen and (max-width: 786) {
     .footer {
         top: 0;
         bottom: unset;
