@@ -1,6 +1,7 @@
 body {
     background-color: #212A37;
     color: #F0F8FF;
+    font-family: 'Fira Mono';
     margin: 0;
     display: flex;
     flex-direction: column;
