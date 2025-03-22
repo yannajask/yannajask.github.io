@@ -15,16 +15,15 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    align: center;
     color:#fffff4;
-    font-family: 'Noto Serif';
+    font-family: 'DotGothic16', sans-serif;
     font-size: 3rem;
     font-weight: lighter;
     height: 100vh;
     padding: 25px 45px;
     transition: font-size 0.5s;
-    opacity: 0.97;
-    mix-blend-mode: hard-light;
+    opacity: 0.95;
+    mix-blend-mode: soft-dark;
 }
 
 #bgVideo {
