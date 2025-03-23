@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: font-size 0.5s;
 }
 
 html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    color:#fffff4;
+    opacity: 0.95;
+    mix-blend-mode: soft-dark;
 }
 
 .content {
@@ -15,15 +19,30 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#fffff4;
     font-family: 'DotGothic16', sans-serif;
     font-size: 3rem;
     font-weight: lighter;
     height: 100vh;
     padding: 25px 45px;
-    transition: font-size 0.5s;
-    opacity: 0.95;
-    mix-blend-mode: soft-dark;
+}
+
+.header {
+    display: flex;
+    padding: 45px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 1.3rem;
+    z-index: 10;
+}
+
+a {
+    color:#fffff4;
+    text-decoration: underline;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 #bgVideo {
@@ -42,10 +61,22 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(7px) hue-rotate(340deg);
+    backdrop-filter: blur(7px) hue-rotate(335deg);
 }
 
+/* Medium screens */
 @media screen and (min-width: 600px) {
+    .content {
+        font-size: 4rem;
+    }
+
+    .header {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 992px) {
     .content {
         font-size: 5rem;
     }
