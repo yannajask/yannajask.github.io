@@ -23,7 +23,9 @@ html, body {
     font-size: 3rem;
     font-weight: lighter;
     height: 100vh;
-    padding: 25px 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header {
