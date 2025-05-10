@@ -16,7 +16,7 @@ html, body {
 
 .main {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
@@ -33,15 +33,16 @@ html, body {
 
 .content {
     font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: flex-start;
     font-family: "Inter", sans-serif;
     font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
 }
 
 .footer {
+    font-family: 'DotGothic16', sans-serif;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -52,14 +53,12 @@ html, body {
     align-items: center;
     padding: 1rem 0;
     font-size: 1rem;
-    font-family: 'DotGothic16', sans-serif;
     z-index: 10;
 }
 
 a {
     color:#fffff4;
     text-decoration: underline;
-    font-family: 'DotGothic16', sans-serif;
 }
 
 #bgVideo {
