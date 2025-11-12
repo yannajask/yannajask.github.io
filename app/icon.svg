@@ -1,0 +1,23 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .Flower {
+      font-family: 'Inconsolata', monospace;
+      font-weight: 900;
+      font-size: 14px;
+      fill: black;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .Flower {
+        fill: white;
+      }
+    }
+  </style>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <text x="-2" y="-12" xml:space="preserve" class="Flower">
+    <tspan x="-2" dy="1.2em">  _  _</tspan>
+    <tspan x="-2" dy="1.2em"> ( \/ )</tspan>
+    <tspan x="-2" dy="1.2em">(_&gt;()&lt;_)</tspan>
+    <tspan x="-2" dy="1.2em"> (_/\_)</tspan>
+  </text>
+</svg>
