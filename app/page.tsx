@@ -12,7 +12,7 @@ export default function Page() {
         </div>
         <Lilypad />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center max-w-[80vw] text-center gap-1">
         <p>Currently studying Computer Science and Math @ Waterloo.</p>
         <p>Website under construction...</p>
       </div>
